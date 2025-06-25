@@ -2,14 +2,13 @@ package simplebashscript
 
 import (
 	"bufio"
-	"embed"
 	"fmt"
 	"log"
 	"os/exec"
 )
 
-//go:embed scripts/*
-var Script embed.FS
+// //go:embed scripts/*
+// var Script embed.FS
 
 func CallScript() {
 	fmt.Println("calling script")
